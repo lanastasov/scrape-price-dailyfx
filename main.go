@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-
+    // document.querySelectorAll(".dfx-rate[data-change-scale=\"2\"")[7].dataset.value
     resp, err := http.Get("https://www.dailyfx.com/forex-rates#indices")
     if err != nil {
         panic(err)
